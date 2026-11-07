@@ -1,0 +1,107 @@
+{
+  "sources": {
+    "poems": {
+      "rows_raw": 9455,
+      "invalid_utf8_sequences": 3,
+      "lines_at_byte_cap": [
+        1809,
+        8603,
+        9062
+      ],
+      "broken_rows_dropped": 6,
+      "duplicates_dropped": 15,
+      "conflicting_label_rows_dropped": 0,
+      "rows_out": 9434
+    },
+    "etda": {
+      "rows_raw": 10065,
+      "null_text_dropped": 1,
+      "duplicates_dropped": 36,
+      "conflicting_label_rows_dropped": 16,
+      "rows_out": 10012
+    },
+    "semeval": {
+      "rows_raw": 4381,
+      "single_target_label": 2095,
+      "neutral": 25,
+      "mixed_target_labels_set_aside": 2095,
+      "only_dropped_emotions": 166,
+      "duplicates_dropped": 0,
+      "conflicting_label_rows_dropped": 0,
+      "rows_out": 2120
+    }
+  },
+  "unmapped_labels_dropped": {
+    "etda:sympathy": 1046
+  },
+  "empty_after_normalization": {
+    "etda": 3
+  },
+  "normalized_duplicates": {
+    "dropped_same_label": 115,
+    "dropped_conflicting_label": 17,
+    "cross_source_groups": 2
+  },
+  "poem_cap": {
+    "max_share": 0.5,
+    "poems_moved_to_reserve": 4720
+  },
+  "stopwords": {
+    "source": "nltk arabic, normalized",
+    "size": 617,
+    "kept_negations": [
+      "بلا",
+      "غير",
+      "لا",
+      "لم",
+      "لن",
+      "ليس",
+      "ليست",
+      "ما"
+    ]
+  },
+  "funnel": {
+    "loaded_after_source_cleaning": 21566,
+    "after_label_harmonization": 20520,
+    "after_normalized_dedup": 20385,
+    "after_poem_cap": 15665
+  },
+  "label_by_source": {
+    "anger": {
+      "etda": 1434,
+      "poems": 0,
+      "semeval": 787
+    },
+    "fear": {
+      "etda": 1168,
+      "poems": 0,
+      "semeval": 280
+    },
+    "joy": {
+      "etda": 1268,
+      "poems": 1558,
+      "semeval": 290
+    },
+    "love": {
+      "etda": 1182,
+      "poems": 1334,
+      "semeval": 152
+    },
+    "neutral": {
+      "etda": 1513,
+      "poems": 0,
+      "semeval": 25
+    },
+    "sadness": {
+      "etda": 1245,
+      "poems": 1812,
+      "semeval": 567
+    },
+    "surprise": {
+      "etda": 1036,
+      "poems": 0,
+      "semeval": 14
+    }
+  },
+  "semeval_mixed_set_aside": 2095
+}

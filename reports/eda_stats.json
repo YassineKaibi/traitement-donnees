@@ -1,0 +1,424 @@
+{
+  "rows": 15665,
+  "label_counts": {
+    "sadness": 3624,
+    "joy": 3116,
+    "love": 2668,
+    "anger": 2221,
+    "neutral": 1538,
+    "fear": 1448,
+    "surprise": 1050
+  },
+  "source_counts": {
+    "etda": 8846,
+    "poems": 4704,
+    "semeval": 2115
+  },
+  "variety_counts": {
+    "egyptian": 8846,
+    "classical_msa": 4704,
+    "mixed_dialects": 2115
+  },
+  "words_median_by_source": {
+    "etda": 13.0,
+    "poems": 89.0,
+    "semeval": 15.0
+  },
+  "words_p90_by_source": {
+    "etda": 22.0,
+    "poems": 438.0,
+    "semeval": 24.600000000000136
+  },
+  "share_over_256_words_by_source": {
+    "etda": 0.0,
+    "poems": 0.2211,
+    "semeval": 0.0
+  },
+  "share_with_emoji_by_source": {
+    "etda": 0.1895,
+    "poems": 0.0,
+    "semeval": 0.3868
+  },
+  "share_with_diacritics_by_source": {
+    "etda": 0.0769,
+    "poems": 0.8994,
+    "semeval": 0.0156
+  },
+  "stopword_token_reduction": 0.2283,
+  "vocab_size_norm": 159246,
+  "etda_olympics_share_by_label": {
+    "anger": 0.098,
+    "fear": 0.022,
+    "joy": 0.309,
+    "love": 0.0,
+    "neutral": 0.985,
+    "sadness": 0.248,
+    "surprise": 0.29
+  },
+  "distinctive_words": {
+    "joy": [
+      {
+        "word": "مبروك",
+        "log_ratio": 3.171,
+        "docs": 70
+      },
+      {
+        "word": "السعود",
+        "log_ratio": 2.458,
+        "docs": 28
+      },
+      {
+        "word": "شكري",
+        "log_ratio": 2.022,
+        "docs": 29
+      },
+      {
+        "word": "فرحه",
+        "log_ratio": 1.995,
+        "docs": 41
+      },
+      {
+        "word": "شكر",
+        "log_ratio": 1.91,
+        "docs": 51
+      },
+      {
+        "word": "الرسول",
+        "log_ratio": 1.892,
+        "docs": 27
+      },
+      {
+        "word": "مولانا",
+        "log_ratio": 1.89,
+        "docs": 22
+      },
+      {
+        "word": "المصطفي",
+        "log_ratio": 1.881,
+        "docs": 43
+      },
+      {
+        "word": "الهنا",
+        "log_ratio": 1.824,
+        "docs": 19
+      },
+      {
+        "word": "والاحسان",
+        "log_ratio": 1.799,
+        "docs": 20
+      }
+    ],
+    "sadness": [
+      {
+        "word": "الوجع",
+        "log_ratio": 3.942,
+        "docs": 30
+      },
+      {
+        "word": "بالدموع",
+        "log_ratio": 3.147,
+        "docs": 34
+      },
+      {
+        "word": "حزينه",
+        "log_ratio": 2.959,
+        "docs": 28
+      },
+      {
+        "word": "العزاء",
+        "log_ratio": 2.682,
+        "docs": 43
+      },
+      {
+        "word": "الحزن",
+        "log_ratio": 2.628,
+        "docs": 124
+      },
+      {
+        "word": "حزين",
+        "log_ratio": 2.486,
+        "docs": 46
+      },
+      {
+        "word": "دمعه",
+        "log_ratio": 2.454,
+        "docs": 55
+      },
+      {
+        "word": "بكاء",
+        "log_ratio": 2.39,
+        "docs": 45
+      },
+      {
+        "word": "عزاء",
+        "log_ratio": 2.364,
+        "docs": 31
+      },
+      {
+        "word": "حزنا",
+        "log_ratio": 2.34,
+        "docs": 49
+      }
+    ],
+    "love": [
+      {
+        "word": "غزل",
+        "log_ratio": 3.598,
+        "docs": 59
+      },
+      {
+        "word": "بالحب",
+        "log_ratio": 3.042,
+        "docs": 42
+      },
+      {
+        "word": "عشق",
+        "log_ratio": 2.847,
+        "docs": 45
+      },
+      {
+        "word": "خواطر",
+        "log_ratio": 2.534,
+        "docs": 43
+      },
+      {
+        "word": "بوح",
+        "log_ratio": 2.528,
+        "docs": 71
+      },
+      {
+        "word": "احبك",
+        "log_ratio": 2.486,
+        "docs": 73
+      },
+      {
+        "word": "ذوق",
+        "log_ratio": 2.404,
+        "docs": 24
+      },
+      {
+        "word": "سلمي",
+        "log_ratio": 2.372,
+        "docs": 21
+      },
+      {
+        "word": "الحب",
+        "log_ratio": 2.328,
+        "docs": 439
+      },
+      {
+        "word": "معك",
+        "log_ratio": 2.24,
+        "docs": 26
+      }
+    ],
+    "anger": [
+      {
+        "word": "بيفور",
+        "log_ratio": 4.509,
+        "docs": 29
+      },
+      {
+        "word": "ينتقم",
+        "log_ratio": 4.069,
+        "docs": 28
+      },
+      {
+        "word": "يسيء",
+        "log_ratio": 3.341,
+        "docs": 27
+      },
+      {
+        "word": "ايران",
+        "log_ratio": 3.33,
+        "docs": 59
+      },
+      {
+        "word": "تركي",
+        "log_ratio": 3.053,
+        "docs": 34
+      },
+      {
+        "word": "العواد",
+        "log_ratio": 3.037,
+        "docs": 30
+      },
+      {
+        "word": "بشار",
+        "log_ratio": 2.979,
+        "docs": 25
+      },
+      {
+        "word": "داعش",
+        "log_ratio": 2.717,
+        "docs": 29
+      },
+      {
+        "word": "زويل",
+        "log_ratio": 2.414,
+        "docs": 23
+      },
+      {
+        "word": "مريم",
+        "log_ratio": 2.194,
+        "docs": 42
+      }
+    ],
+    "fear": [
+      {
+        "word": "خايفه",
+        "log_ratio": 7.111,
+        "docs": 623
+      },
+      {
+        "word": "مرعوبه",
+        "log_ratio": 6.068,
+        "docs": 43
+      },
+      {
+        "word": "مرعب",
+        "log_ratio": 5.669,
+        "docs": 58
+      },
+      {
+        "word": "خايف",
+        "log_ratio": 5.246,
+        "docs": 231
+      },
+      {
+        "word": "مخيف",
+        "log_ratio": 5.098,
+        "docs": 49
+      },
+      {
+        "word": "خائفه",
+        "log_ratio": 3.971,
+        "docs": 26
+      },
+      {
+        "word": "فوبيا",
+        "log_ratio": 3.596,
+        "docs": 25
+      },
+      {
+        "word": "رعب",
+        "log_ratio": 3.463,
+        "docs": 25
+      },
+      {
+        "word": "يستر",
+        "log_ratio": 2.834,
+        "docs": 25
+      },
+      {
+        "word": "انام",
+        "log_ratio": 2.572,
+        "docs": 35
+      }
+    ],
+    "surprise": [
+      {
+        "word": "معقول",
+        "log_ratio": 3.686,
+        "docs": 42
+      },
+      {
+        "word": "ازاي",
+        "log_ratio": 3.373,
+        "docs": 87
+      },
+      {
+        "word": "فجاه",
+        "log_ratio": 2.633,
+        "docs": 26
+      },
+      {
+        "word": "دا",
+        "log_ratio": 2.219,
+        "docs": 73
+      },
+      {
+        "word": "كميه",
+        "log_ratio": 1.976,
+        "docs": 13
+      },
+      {
+        "word": "كدا",
+        "log_ratio": 1.94,
+        "docs": 28
+      },
+      {
+        "word": "جدعان",
+        "log_ratio": 1.812,
+        "docs": 10
+      },
+      {
+        "word": "بجد",
+        "log_ratio": 1.73,
+        "docs": 31
+      },
+      {
+        "word": "انتوا",
+        "log_ratio": 1.535,
+        "docs": 7
+      },
+      {
+        "word": "بعثه",
+        "log_ratio": 1.509,
+        "docs": 12
+      }
+    ],
+    "neutral": [
+      {
+        "word": "جانيرو",
+        "log_ratio": 3.316,
+        "docs": 35
+      },
+      {
+        "word": "نهائي",
+        "log_ratio": 3.116,
+        "docs": 26
+      },
+      {
+        "word": "البرازيل",
+        "log_ratio": 3.006,
+        "docs": 65
+      },
+      {
+        "word": "ريو",
+        "log_ratio": 2.954,
+        "docs": 70
+      },
+      {
+        "word": "العاب",
+        "log_ratio": 2.85,
+        "docs": 31
+      },
+      {
+        "word": "السباحه",
+        "log_ratio": 2.757,
+        "docs": 23
+      },
+      {
+        "word": "دخول",
+        "log_ratio": 2.697,
+        "docs": 20
+      },
+      {
+        "word": "ميداليات",
+        "log_ratio": 2.693,
+        "docs": 36
+      },
+      {
+        "word": "المركز",
+        "log_ratio": 2.648,
+        "docs": 19
+      },
+      {
+        "word": "رياضي",
+        "log_ratio": 2.562,
+        "docs": 23
+      }
+    ]
+  }
+}
